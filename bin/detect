@@ -1,2 +1,4 @@
 #! /bin/sh
+
+echo "<> file: `basename $0`"
 exit 1

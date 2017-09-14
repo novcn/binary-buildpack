@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
 # bin/release <build-dir>
 
+
+echo "<> file: `basename $0`"
+
 echo -e "---\ndefault_process_types:\n  web: exit 1"
+

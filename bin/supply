@@ -1,6 +1,8 @@
 #! /bin/bash
 set -euo pipefail
 
+echo "<> file: `basename $0`"
+
 BUILD_DIR=$1
 CACHE_DIR=$2
 DEPS_DIR=$3
