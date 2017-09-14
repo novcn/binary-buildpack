@@ -21,8 +21,7 @@ set -x
 pwd
 ls /app/
 set +x
-find / -name "Procfile"
-ls /tmp/staged/
+find / -name "unique-app-name" 2>&1
 echo "<>"
 
 exit 0
