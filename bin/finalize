@@ -17,8 +17,10 @@ $BP_DIR/compile-extensions/bin/write_profiled_from_supply $DEPS_DIR $BUILD_DIR
 $BP_DIR/compile-extensions/bin/store_buildpack_metadata $BP_DIR $CACHE_DIR
 
 echo "<>"
+set -x
 pwd
 ls /app/
+set +x
 echo "<>"
 
 exit 0
