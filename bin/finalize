@@ -20,8 +20,10 @@ echo "<>"
 set -x
 pwd
 ls /app/
-set +x
+set +e
 find / -name "unique-app-name" 2>&1
+set -e
+set +x
 echo "<>"
 
 exit 0
