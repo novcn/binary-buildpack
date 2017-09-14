@@ -22,6 +22,7 @@ pwd
 ls /app/
 set +x
 find / -name "Procfile"
+ls /tmp/staged/
 echo "<>"
 
 exit 0
